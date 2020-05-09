@@ -15,7 +15,7 @@
                             <view class="weui-cell__ft">
                                 <radio
                                     class="weui-check"
-                                    value="{{item.num}}"
+                                    value="{{item.name}}"
                                     checked="{{item.checked}}"
                                 />
                                 <i class="weui-icon-checked"></i>
