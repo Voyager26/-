@@ -1,0 +1,51 @@
+{
+  "pages": [
+    
+    "pages/index/index",
+    "pages/course/course",
+    "pages/signup/signup",
+    "pages/detail/detail",
+    "pages/timeSelect/timeSelect",
+    "pages/my/my",
+    "pages/select/select",
+    "pages/updatearray/updatearray",
+    "pages/first/first"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "搞事情",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/first/first",
+        "text": "首页",
+        "iconPath": "icons/首页.png",
+        "selectedIconPath": "icons/首页_1.png"
+      },
+      {
+        "pagePath": "pages/course/course",
+        "text": "课表",
+        "iconPath": "icons/list.png",
+        "selectedIconPath": "icons/list_1.png"
+      },
+      {
+        "pagePath": "pages/select/select",
+        "text": "选课",
+        "iconPath": "icons/search.png",
+        "selectedIconPath": "icons/search_1.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "icons/user.png",
+        "selectedIconPath": "icons/user_1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

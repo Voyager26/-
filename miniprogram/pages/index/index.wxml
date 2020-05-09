@@ -1,0 +1,17 @@
+<view class = 'container'>
+ <open-data class="avs" type="userAvatarUrl" />
+ <view class = 'username'>
+  <open-data type="userNickName" />
+  <text > 请由此授权登录</text>
+ </view>
+ <button class="weui-btn weui-btn_primary" hidden='{{hiddenButton}}' wx:if="{{canIUse}}" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">
+  <text >点此授权登录</text>
+ </button>
+</view>
+<view class="fadeIn {{hideToast ? 'fadeOut' : ''}}" wx:if="{{toast}}">
+		<view class="weui-mask_transparent"></view>
+		<view class="weui-toast">
+			<i class="weui-icon-success-no-circle weui-icon_toast"></i>
+			<view class="weui-toast__content">登陆成功，正在跳转</view>
+		</view>
+	</view>

@@ -1,0 +1,9 @@
+<!--pages/detail/detail.wxml-->
+<view>Name :{{singer.name}}</view>
+<view class="weui-form__opr-area">
+			<a class="weui-btn weui-btn_primary" bindtap="toSelectTime">确定</a>
+		</view>
+<video src="{{singer.video}}"></video>
+<view>{{singer.info}}</view>
+  <image src="{{item}}"></image>
+
