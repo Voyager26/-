@@ -103,7 +103,7 @@ def get_feedback():
             return json.dumps({'code': 400, 'message': f"缺少必要字段{field}"})
     try:
         page = int(request.args['page'])
-        size = int(request.args['size'])
+        size = request.args['size']
         start_time = request.args.get('start_time', '1970-01-01 00:00:00')
         end_time = request.args.get('end_time', '2100-01-01 00:00:00')
     except Exception as e:
